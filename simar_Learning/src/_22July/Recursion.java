@@ -9,14 +9,13 @@ public class Recursion {
 	}
 
 
-	private static void gonIrritatingHisoka(int stopMe) {
+	private static void gonIrritatingHisoka(int whenToStop) {
 
 		System.out.println("Gon To Hisoka: You're weird");
 
-		if(stopMe == 0) { }
+		if(whenToStop == 0) { }
 		else {				
-			stopMe = stopMe - 1;
-			gonIrritatingHisoka(stopMe); 
+			gonIrritatingHisoka(whenToStop--); 
 		}
 	}
 	
@@ -27,6 +26,17 @@ public class Recursion {
 /*
 
 
+2nd
+	private static void gonIrritatingHisoka(int whenToStop) {
+
+		System.out.println("Gon To Hisoka: You're weird");
+
+		if(whenToStop == 0) { }
+		else {				
+			gonIrritatingHisoka(whenToStop--); 
+		}
+	}
+	
 
 
 1st
@@ -66,7 +76,7 @@ public class Recursion {
 
 		//1->2  
 		stopME++;
-		//stopME + 1 | stopME += 5
+		//stopME + 1 | stopME += 1
 
 		gonIrritatingHisoka(stopME);//recursion
 
