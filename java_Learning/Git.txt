@@ -54,3 +54,13 @@ rm <file path: yo/ahem/yo.txt>
 #to add deleted status from staged to commit
 git add -u
 https://stackoverflow.com/questions/4307728/git-still-showing-deleted-files-after-a-commit
+
+
+
+
+#Running html pages from git
+https://raw.githack.com/
+
+For the URL type javascript:top.location="http://htmlpreview.github.com/?"+document.URL
+
+https://stackoverflow.com/questions/6551446/can-i-run-html-files-directly-from-github-instead-of-just-viewing-their-source
