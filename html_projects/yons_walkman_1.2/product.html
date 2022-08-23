@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Yons - WM AF54</title>  
+  <meta charset="UTF-8">
+  <meta name="description" content="Yons Walkman Player Project -- Diploma">
+  <meta name="keywords" content="Diploma, Simarpreet, Kaur, Yons, Walkman, Player, AF, 54, Open Source, Canada">
+  <meta name="author" content="Simarpreet Kaur">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+<!--    styles-->
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+<body>
+   <!--pop img-->
+    <section id="product">
+		<input type="button" onclick="window.location.href='#call-to-action'" value="Limited Offer" id="btn-call-to-action" />
+		<p id="txt-retro">For $<span id="txt-retro-size">599</p>
+    </section>
+ 
+<!--    specification section-->
+    <main id="base">
+		
+        <section class="content">
+            <h1 id="txt-prod-h1">
+				Yons Walkman Player (<span class = "txt-red">WM AF54</span>)
+			</h1>
+			
+            <h3>Designed for casette lovers</h3>
+            <hr>
+            
+			<!-- features: Amplifier | Speaker | Design-->
+			<div class="flex-container">
+                <div class="grid-item">
+					<span id="specs-desc">Amplifier</span>
+					
+					<br>
+					<span id= "specs-desc-type">Amp Type:</span> 
+					<span id="specs-desc-value">Stereo Amp</span>
+					
+					<br> 
+					<span id= "specs-desc-type">AC Power Supply: </span> 
+					<span id="specs-desc-value">20W (1 kHz, THD 10%, 6Ω)</span>
+					<br>
+					<span id= "specs-desc-type">Battery Supply: </span> 
+					<span id="specs-desc-value">12W (1 kHz, THD 10%, 6Ω)</span>
+				</div>
+				
+                <div class="grid-item">
+					<span id="specs-desc">Speaker</span>
+					
+					<br>
+					<span id= "specs-desc-type">Type:</span> 
+					<span id="specs-desc-value">1 way, 1 speaker</span>
+					
+					<br> 
+					<span id= "specs-desc-type">Unit: </span> 
+					<span id="specs-desc-value">8cm Full Range x 2</span>
+					<br>
+					<span id= "specs-desc-type">Bass Expand: </span> 
+					<span id="specs-desc-value">Bass Reflex Port</span>
+					
+				</div>
+				    
+                <div class="grid-item">
+					<span id="specs-desc">Design</span>
+					
+					<br>
+					<span id= "specs-desc-type">Shape:</span> 
+					<span id="specs-desc-value">Pocket-Set (Handheld) </span>
+					
+					<br> 
+					<span id= "specs-desc-type">Preset Keys: </span> 
+					<span id="specs-desc-value">5 Direct Keys on Main Set</span>
+					<br>
+					<span id= "specs-desc-type">Net weight: </span> 
+					<span id="specs-desc-value">0.2 kg</span>
+				</div>
+            </div>
+			<hr id = "hr-long">
+			
+			<!-- features: General | Terminal | Radio-->
+			<div class="flex-container">
+                <div class="grid-item">
+					<span id="specs-desc">General</span>
+					
+					<br>
+					<span id= "specs-desc-type">Power Supply:</span> 
+					<span id="specs-desc-value">AC 220 - 240V, 50/60Hz</span>
+					
+					<br> 
+					<span id= "specs-desc-type">Language Indication: </span> 
+					<span id="specs-desc-value">Alphabet</span>
+				</div>
+            
+				<div class="grid-item">
+					<span id="specs-desc">Terminals</span>
+					<br>
+					<span id= "specs-desc-type">USB:</span> 
+					<span id="specs-desc-value">Yes (1)</span>
+					
+					<br> 
+					<span id= "specs-desc-type">Audio IN: </span> 
+					<span id="specs-desc-value">AUX</span>
+				</div>
+					
+						
+				<div class="grid-item">
+					<span id="specs-desc">Radio</span>
+					
+					<br>
+					<span id= "specs-desc-type">Station:</span> 
+					<span id="specs-desc-value">FM </span>
+					
+					<br> 
+					<span id= "specs-desc-type">Auto Tuning: </span> 
+					<span id="specs-desc-value">Yes</span>
+				</div>
+			</div>
+				
+        </section>    
+        <hr id = "hr-short">
+
+        <section id = "performance">
+            <p>
+				<br>Smooth performance, improved power-efficiency by 30%.
+			</p>
+		</section>
+		
+		<!-- img slider: 5 images every 2.6s -->
+		<section class="slider">
+			<div class="slides">
+				<div class="item active" id="slide1">
+					<img src="./img/1.jpg" alt="slide1" />
+				</div>
+				<div class="item" id="slide2">
+					<img src="./img/2.jpg" alt="slide2" />
+				</div>
+				<div class="item" id="slide3">
+					<img src="./img/3.jpg" alt="slide3" />
+				</div>         
+				<div class="item" id="slide4">
+					<img src="./img/4.jpg" alt="slide2" />
+				</div>
+				<div class="item" id="slide5">
+					<img src="./img/5.jpg" alt="slide3" />
+				</div>
+			</div>
+		</section>
+	</main>
+	
+	<!--    script: add header + footer
+			slider: create loop of img | freq: 2.6s
+													--> 
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+	
+  </body>
+</html>
