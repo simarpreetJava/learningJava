@@ -49,3 +49,8 @@ git commit -m "removed files"
 
 rm -r <folder name: yo/ahem>
 rm <file path: yo/ahem/yo.txt>
+
+#whenever you delete something|rename -> must write this line
+#to add deleted status from staged to commit
+git add -u
+https://stackoverflow.com/questions/4307728/git-still-showing-deleted-files-after-a-commit
